@@ -1,0 +1,96 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    
+    <script type="text/javascript">
+history.forward();
+    
+    </script>
+    <style type="text/css">
+
+        .auto-style1 {
+            color: #000066;
+        }
+        .left {
+            width: 327px;
+            top: 0px;
+            left: 264px;
+        }
+    </style>
+</head>
+<body style="height: 868px; background-color: #FFFFFF; width: 1287px; margin-right: 725px;">
+    <form id="form1" runat="server">
+    <div align="center">
+        <div style="text-align: center; height: 856px; background-image: url('/images/online-shopping-cart-solutions-banner.jpg'); background-repeat: no-repeat;" align="center">
+            <table style="width: 582px; position: static; height: 100px">
+                <tr>
+                    <td colspan="3">
+        <div style="text-align: center">
+            <table style="width: 570px; position: static; height: 100px">
+                <tr>
+                    <td  align="left">
+                        
+                            <asp:Image ID="Image2" runat="server" Height="141px" Width="328px" ImageUrl="~/images/online-banner.jpg" />
+                        
+
+                    </td>
+                    
+                    <td>
+                        <div class="auto-style1" style="border-style: solid; position: relative; top: -1px; left: 1px; width: 686px; height: 38px; text-align: center; font-size: x-large; background-color: #FF0000;">
+                <strong>WELCOME TO FANCY E-SHOP</strong></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 76px">
+                        <div align="center" style="text-align: center">
+                            <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Bold="True" Font-Names="Imprint MT Shadow" Font-Size="12pt" ForeColor="#284E98" Height="21px" Orientation="Horizontal" StaticSubMenuIndent="10px" Style="position: static" Width="780px">
+                                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                                <DynamicMenuStyle BackColor="#B5C7DE" />
+                                <StaticSelectedStyle BackColor="#507CD1" />
+                                <DynamicSelectedStyle BackColor="#507CD1" />
+                                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/Admin/Welcome.aspx" Text="Welcome" Value="New Item"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/AddItemType.aspx" Text="AddItemType" Value="New Item"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/AddItems.aspx" Text="AddItems" Value="AddItems"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/AddItemDetails.aspx" Text="AddItemDetails" Value="AddItemDetails"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/productdetails.aspx" Text="ProductDetails" Value="ProductDetails"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/addsalesman.aspx" Text=" Add Salesman" Value="Add Salesman">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/view salesmandetails.aspx" Text="View Salesman" Value="View Salesman"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Homepage.aspx" Text="LogOut" Value="LogOut"></asp:MenuItem>
+                                </Items>
+                                <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                            </asp:Menu>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" colspan="2" valign="top">
+                        &nbsp;</td>
+                </tr>
+              
+                    
+              
+              </table>
+        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3" style="background-color: #FFFFFF">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

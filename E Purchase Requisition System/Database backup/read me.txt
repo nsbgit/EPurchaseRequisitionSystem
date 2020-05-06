@@ -1,0 +1,9 @@
+create a database named 'dbpro1'
+then open C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA
+
+copy and replace the file
+
+dbpro1.mdf
+dbpro1_log.ldf
+
+
